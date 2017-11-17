@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEC85ADE1FBF7E9400242615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC85ADD1FBF7E9400242615 /* AppDelegate.swift */; };
-		CEC85AE01FBF7E9400242615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC85ADF1FBF7E9400242615 /* ViewController.swift */; };
+		CEC85AE01FBF7E9400242615 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC85ADF1FBF7E9400242615 /* CameraVC.swift */; };
 		CEC85AE31FBF7E9400242615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC85AE11FBF7E9400242615 /* Main.storyboard */; };
 		CEC85AE51FBF7E9400242615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC85AE41FBF7E9400242615 /* Assets.xcassets */; };
 		CEC85AE81FBF7E9400242615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC85AE61FBF7E9400242615 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		CEC85ADA1FBF7E9400242615 /* visionapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visionapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC85ADD1FBF7E9400242615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEC85ADF1FBF7E9400242615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC85ADF1FBF7E9400242615 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		CEC85AE21FBF7E9400242615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC85AE41FBF7E9400242615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC85AE71FBF7E9400242615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,38 @@
 		CEC85ADC1FBF7E9400242615 /* visionapp */ = {
 			isa = PBXGroup;
 			children = (
+				CEC85AF11FBF7F2E00242615 /* Resources */,
+				CEC85AF01FBF7F2500242615 /* View */,
+				CEC85AEF1FBF7F2400242615 /* Controller */,
 				CEC85ADD1FBF7E9400242615 /* AppDelegate.swift */,
-				CEC85ADF1FBF7E9400242615 /* ViewController.swift */,
 				CEC85AE11FBF7E9400242615 /* Main.storyboard */,
 				CEC85AE41FBF7E9400242615 /* Assets.xcassets */,
 				CEC85AE61FBF7E9400242615 /* LaunchScreen.storyboard */,
 				CEC85AE91FBF7E9400242615 /* Info.plist */,
 			);
 			path = visionapp;
+			sourceTree = "<group>";
+		};
+		CEC85AEF1FBF7F2400242615 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC85ADF1FBF7E9400242615 /* CameraVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEC85AF01FBF7F2500242615 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEC85AF11FBF7F2E00242615 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC85AE01FBF7E9400242615 /* ViewController.swift in Sources */,
+				CEC85AE01FBF7E9400242615 /* CameraVC.swift in Sources */,
 				CEC85ADE1FBF7E9400242615 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
